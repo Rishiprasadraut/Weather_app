@@ -69,7 +69,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-################################.................PREVIEW:- https://weather-project-apps.netlify.app     .........########################################################
+#############.....PREVIEW:- https://weather-project-apps.netlify.app     .........##############
 
 ## License
 
