@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (for wind icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Material Symbols -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@0..1&icon_names=humidity_percentage" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+      <!-- Search Row -->
+      <div class="weather-input search-bar">
+        <input type="text" id="search" class="input-box" placeholder="Enter city name...">
+        <button class="search-btn">Search</button>
+      </div>
+
+      <!-- Location -->
+      <div class="loc">
+        <h4>
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="location">—</span>
+        </h4>
+      </div>
+
+      <!-- Weather Description -->
+      <h6 id="weather">—</h6>
+
+      <!-- Temperature -->
+      <div id="temperature">
+        <h4><span id="temp">--</span><sup>°</sup>C</h4>
+      </div>
+
+      <!-- Weather Details -->
+      <div class="weather-icon">
+        <div class="humidity">
+          <span class="material-symbols-outlined">humidity_percentage</span>
+          <span id="humidity">--%</span>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <span id="speed">-- Km/H</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/e1da5db97e.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
