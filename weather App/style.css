@@ -29,7 +29,7 @@ body {
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
   padding: 2rem;
-  height: 30rem;
+  height: 35rem;
   text-align: center;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -139,4 +139,26 @@ body {
   .input-box {
     width: 100%;
   }
+}
+
+.refresh {
+  margin-top: 1.5rem; /* Spacing from the elements above */
+  text-align: center;
+}
+
+.refresh .btn {
+  /* Make it a circle */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  /* Override Bootstrap padding and center the icon */
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  /* New color! You can change this to any color you like. */
+  background-color:rgb(97, 97, 97); /* A nice cyan color */
+  border-color: rgb(97, 97, 97);;
 }
