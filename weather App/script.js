@@ -8,7 +8,7 @@ const inputbox = document.querySelector(".input-box");
 const searchbtn = document.querySelector(".search-btn");
 
 // ===== API CONFIG =====
-const API_KEY = "d393259e3fadd8fecaa8e59e2ef8e239";
+const API_KEY = "#";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather"; // ✅ switched to HTTPS for security
 
 // ===== FETCH WEATHER =====
@@ -58,3 +58,4 @@ inputbox.addEventListener("keypress", (event) => {
 window.addEventListener("DOMContentLoaded", () => {
   checkWeather("Surat");
 });
+
